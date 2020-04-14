@@ -15,3 +15,6 @@ export function Sudoku() {
   this.column = [];
 }
 
+Sudoku.prototype.addToRows = function (row) {
+  this.row.push(row)
+}
