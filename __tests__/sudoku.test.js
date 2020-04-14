@@ -25,7 +25,8 @@ describe('Sudoku', () => {
 
   test('user input checker', () => {
     var sudoku = new Sudoku()
-    sudoku.checkNumberRow(1)
-    expect(sudoku.row).toEqual(1)
+    sudoku.checkNumberRow(8)
+    expect(number).toEqual([8])
+    console.log(sudoku);
   });
 });

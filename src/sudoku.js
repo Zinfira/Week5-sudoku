@@ -13,6 +13,7 @@
 export function Sudoku() {
   this.row = [];
   this.column = [];
+  this.number = number;
 }
 
 Sudoku.prototype.addToRows = function (row) {
@@ -24,5 +25,9 @@ Sudoku.prototype.addToColumns = function (column) {
 }
 
 Sudoku.prototype.checkNumberRow = function (number) {
-  
+  if (number >= 1 && number <= 9) {
+    this.row.push(number);
+  } else {
+    return "Enter number from 1 to 9";
+  }
 }
