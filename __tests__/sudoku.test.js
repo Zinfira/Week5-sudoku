@@ -22,4 +22,10 @@ describe('Sudoku', () => {
     sudoku.addToColumns(3)
     expect(sudoku.column).toEqual([3])
   });
+
+  test('user input checker', () => {
+    var sudoku = new Sudoku()
+    sudoku.checkNumberRow(1)
+    expect(sudoku.row).toEqual(1)
+  });
 });

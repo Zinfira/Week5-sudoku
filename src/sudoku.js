@@ -22,3 +22,7 @@ Sudoku.prototype.addToRows = function (row) {
 Sudoku.prototype.addToColumns = function (column) {
   this.column.push(column)
 }
+
+Sudoku.prototype.checkNumberRow = function (number) {
+  
+}
