@@ -11,9 +11,15 @@ describe('Sudoku', () => {
     expect(sudoku.column).toEqual([])
   });
 
-  test('number push into empty array', () => {
+  test('number push into empty row array', () => {
     var sudoku = new Sudoku()
     sudoku.addToRows(1)
     expect(sudoku.row).toEqual([1])
+  });
+
+  test('number push into empty column array', () => {
+    var sudoku = new Sudoku()
+    sudoku.addToColumns(3)
+    expect(sudoku.row).toEqual([3])
   });
 });

@@ -18,3 +18,4 @@ export function Sudoku() {
 Sudoku.prototype.addToRows = function (row) {
   this.row.push(row)
 }
+
