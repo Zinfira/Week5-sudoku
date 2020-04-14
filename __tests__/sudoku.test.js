@@ -20,6 +20,6 @@ describe('Sudoku', () => {
   test('number push into empty column array', () => {
     var sudoku = new Sudoku()
     sudoku.addToColumns(3)
-    expect(sudoku.row).toEqual([3])
+    expect(sudoku.column).toEqual([3])
   });
 });

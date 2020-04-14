@@ -19,6 +19,6 @@ Sudoku.prototype.addToRows = function (row) {
   this.row.push(row)
 }
 
-Sudoku.prototype.addToColumns = function () {
-  
+Sudoku.prototype.addToColumns = function (column) {
+  this.column.push(column)
 }
