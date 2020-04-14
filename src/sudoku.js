@@ -14,3 +14,4 @@ export function Sudoku() {
   this.row = [];
   this.column = [];
 }
+
